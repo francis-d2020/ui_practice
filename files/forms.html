@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>forms practice</title>
+    <link rel="stylesheet" href="css/styles.css">
+<!--        <style>-->
+<!--            body{-->
+<!--                background-color: #5bc625;-->
+<!--            }-->
+<!--            p{-->
+<!--                background-color: rgba(223, 88, 5, 0.64);-->
+<!--            }-->
+
+<!--        </style>-->
+
+</head>
+<body>
+
+
+<form>
+    <p>username <input type="text" name="username">
+    </p>
+
+    <p>password <input type="password" name="password" placeholder="type now">
+    </p>
+
+    <p>
+        What did you think of this trip?
+    </p>
+    <textarea cols="30" rows="7" placeholder="Enter your comment"></textarea>
+    <br>
+
+    <p class="class1 class2">enter ur food <br>
+        <input type="radio" name="food" value="kabab" checked>kabab
+        <input type="radio" name="food" value="burger" checked>burger
+        <input type="radio" name="food" value="salad" checked>salad
+    </p>
+
+    <p>Pick a date:
+        <input type="date">
+    </p>
+
+    <input type="datetime-local">
+
+    <br>
+
+    <p>Please upload your resume:
+        <br>
+        <input type="file">
+    </p>
+
+    <p>
+        Please select your favorite course(s)
+    </p>
+    <label for="j">
+        <input type="checkbox" name="course" value="java" id="j">Java
+    </label>
+
+    <input type="checkbox" name="course" value="DS">DS
+    <input type="checkbox" name="course" value="UI">UI
+    <input type="checkbox" name="course" value="softSkill">Soft Skill
+
+
+    <br>
+
+    <p>Please select the course: </p>
+    <select name="course">
+        <option value="" disabled selected>Select a course</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">Java SDET</option>
+        <option value="cs">Cyber Security</option>
+    </select>
+
+    <br>
+
+    <input type="submit" value="Sign up" id="signup" onclick="alert('thanks for signing up!')">
+
+</form>
+
+</body>
+</html>

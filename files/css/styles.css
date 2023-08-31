@@ -1,0 +1,33 @@
+body{
+    background-color: #9aa894
+
+}
+p{
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+.class1{
+    background-color: #822525;
+    font-size: 12px;
+    font-family: Andalus;
+
+}
+
+.class2{
+
+    color: darkcyan;
+}
+.class1:hover{
+    background-color: chartreuse;
+}
+
+#signup
+{
+    background-color: darkorange;
+}
+
+#signup:hover{
+    background-color: skyblue;
+    font-family: "Agency FB";
+}
+
